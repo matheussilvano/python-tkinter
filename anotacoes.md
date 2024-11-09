@@ -20,9 +20,11 @@ textbox.pack()
 
 # Criação de outro tipo de caixa de entrada
 myentry = tk.Entry(root)
-myentry.pack(padx=10)
+myentry.pack(padx=10, pady=10)
 
 # Criação de botões
+button = tk.Button(root, text="Click me!", font=('Arial', 18))
+button.pack(padx=10, pady=10)
 
 root.mainloop()
 ```
